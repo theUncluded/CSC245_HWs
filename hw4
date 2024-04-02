@@ -1,0 +1,44 @@
+Dataset:
+Row Labels | Count of Color
+Chevrolet  | 4
+Dodge      | 3
+Ford       | 5
+Honda      | 5
+Nissan     | 3
+Toyota     | 4
+Grand Total| 24
+
+Business Question 1: What is the total count of cars for each car brand?
+Pivot Table 1:
+Row Labels | Count of Color
+Chevrolet  | 4
+Dodge      | 3
+Ford       | 5
+Honda      | 5
+Nissan     | 3
+Toyota     | 4
+Grand Total| 24
+
+Answer: The pivot table shows the total count of cars for each brand. Ford and Honda have the highest count with 5 cars each, followed by Chevrolet and Toyota with 4 cars each, and Dodge and Nissan with 3 cars each.
+
+Business Question 2: Which car brands contribute to more than 20% of the total car inventory?
+Pivot Table 2:
+Row Labels | Count of Color | % of Total
+Ford       | 5              | 20.83%
+Honda      | 5              | 20.83%
+Chevrolet  | 4              | 16.67%
+Toyota     | 4              | 16.67%
+Dodge      | 3              | 12.50%
+Nissan     | 3              | 12.50%
+Grand Total| 24             | 100.00%
+
+Answer: Ford and Honda each contribute to more than 20% of the total car inventory, with each brand accounting for 20.83% of the total cars.
+
+Business Question 3: How many car brands have an inventory count greater than or equal to 4?
+Pivot Table 3:
+Count of Color | Count of Row Labels
+4              | 2
+5              | 2
+3              | 2
+
+Answer: There are 4 car brands (Chevrolet, Ford, Honda, and Toyota) that have an inventory count greater than or equal to 4.
